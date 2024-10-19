@@ -25,7 +25,7 @@ form.addEventListener("submit", event => {
     alert("Fill all fields of the form");
     return;
   }
-//   console.log(formData);
+  console.log(formData);
   localStorage.removeItem("feedback-form-state");
   formData = { email: "", message: "" };
   form.reset();
