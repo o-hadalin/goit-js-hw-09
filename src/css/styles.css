@@ -17,6 +17,17 @@
   object-fit: cover;
 }
 
+body .sl-overlay {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: rgba(46, 47, 66, 0.8);
+}
+
+body .sl-wrapper .sl-close,
+body .sl-wrapper .sl-navigation button,
+body .sl-wrapper .sl-counter {
+  color: #fff;
+}
+
 /* Styles form */
 .feedback-form {
   display: flex;
